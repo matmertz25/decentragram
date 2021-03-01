@@ -14,8 +14,9 @@ class Navbar extends Component {
           rel="noopener noreferrer"
         >
           <img src={photo} width="30" height="30" className="d-inline-block align-top" alt="" />
-          Decentragram
+          Decentragram 
         </a>
+        <span style={{color:'#fff'}}>{ this.props.network.name }</span>
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
             <small className="text-secondary">

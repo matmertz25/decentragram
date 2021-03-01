@@ -27,7 +27,11 @@ class Main extends Component {
                         placeholder="Image description..."
                         required />
                   </div>
+<<<<<<< Updated upstream
                 <button type="submit" class="btn btn-primary btn-block btn-lg">Upload!</button>
+=======
+                <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
+>>>>>>> Stashed changes
               </form>
               <p>&nbsp;</p>
               { this.props.images.map((image, key) => {
@@ -44,7 +48,11 @@ class Main extends Component {
                     </div>
                     <ul id="imageList" className="list-group list-group-flush">
                       <li className="list-group-item">
+<<<<<<< Updated upstream
                         <p class="text-center"><img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/></p>
+=======
+                        <p className="text-center"><img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/></p>
+>>>>>>> Stashed changes
                         <p>{image.description}</p>
                       </li>
                       <li key={key} className="list-group-item py-2">
